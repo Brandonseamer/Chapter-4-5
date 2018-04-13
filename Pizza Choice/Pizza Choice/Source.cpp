@@ -1,6 +1,6 @@
-//Date 4/12/2018
-//Author Brandon Seamer
-//Program Pizza Choice
+//Date: 4/12/2018
+//Author: Brandon Seamer
+//Program: Pizza Choice
 
 #include <iostream>
 #include <string>
@@ -208,10 +208,10 @@ int main()
 	}
 
 else
-				{
+	{
 					std::cout << "Please select an option of the menu, 1, 2, or 3. You have chosen nothing." << std::endl;
 					goto pick1;
-				}
+	}
 
 			std::cout << "Your total for the " << pizzaString << " pizza is " << total << std::endl;
 
