@@ -9,13 +9,11 @@
 int dice;
 int rollDice()
 {
-	for (int n = 5; n > 0; n--)
-	{
-		int seed;
-		srand(time(0)+seed);
+
+		
+		srand(time(0));
 		dice = rand() % 6 + 1;
-		seed = seed + 1;
-	}
+
 	if (dice == 1)
 	{
 		std::cout << " ----- " << std::endl;
@@ -81,6 +79,8 @@ int main()
 		
 		
 		rollDice();
+		std::cout << "Roll again" << std::endl;
+		system("pause");
 		score = score + dice;
 	}
 
